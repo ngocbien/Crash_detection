@@ -1,0 +1,136 @@
+METHOD: ONLY DELETE THE OFFSET 
+List level: [1.5, 2.5, 6, 10, 15, 20, 25, 30, 35, 40, 50, 60, 70, 1000]
+constant at 9h10
+constant at 9h14
+constant at 9h18
+constant at 10h03
+faible at 9h28
+MILD ACCIDENT level 1/12 at 2018-11-07 09:28:09 value =  3.05
+SUDDEN BRAKING value =  2.18
+MILD ACCIDENT level 1/12 at 2018-11-07 09:28:27 value =  3.31
+faible at 9h38
+MILD ACCIDENT level 1/12 at 2018-11-07 09:37:52 value =  3.05
+SUDDEN BRAKING value =  2.12
+faible at 9h39
+SUDDEN BRAKING value =  2.26
+MILD ACCIDENT level 1/12 at 2018-11-07 09:39:03 value =  2.77
+moyenne at 9h42
+MILD ACCIDENT level 1/12 at 2018-11-07 09:41:24 value =  4.01
+MILD ACCIDENT level 1/12 at 2018-11-07 09:41:39 value =  2.92
+moyenne at 9h44
+MILD ACCIDENT level 1/12 at 2018-11-07 09:43:38 value =  3.49
+MILD ACCIDENT level 1/12 at 2018-11-07 09:43:48 value =  2.87
+moyenne at 9h45
+MILD ACCIDENT level 1/12 at 2018-11-07 09:45:02 value =  3.25
+MILD ACCIDENT level 1/12 at 2018-11-07 09:45:14 value =  3.72
+severe at 9h51
+MILD ACCIDENT level 1/12 at 2018-11-07 09:50:59 value =  3.05
+MILD ACCIDENT level 1/12 at 2018-11-07 09:51:12 value =  4.02
+MILD ACCIDENT level 1/12 at 2018-11-07 09:51:29 value =  3.16
+severe at 9h53
+MILD ACCIDENT level 1/12 at 2018-11-07 09:52:44 value =  3.05
+MILD ACCIDENT level 1/12 at 2018-11-07 09:52:58 value =  3.88
+MILD ACCIDENT level 1/12 at 2018-11-07 09:53:11 value =  3.05
+severe at 9h54
+MILD ACCIDENT level 1/12 at 2018-11-07 09:54:06 value =  3.05
+MILD ACCIDENT level 1/12 at 2018-11-07 09:54:16 value =  3.52
+avance at 9h57
+avance at 10h00
+avance_stop_recoule_a_fond at 10h05
+avance_stop_recoule_a_fond at 10h06
+--------------------------------------------------------------------------------
+METHOD: ONLY DELETE THE OFFSET 
+List level: [1.0, 2.0, 3.0, 4.0, 5.0, 20, 25, 30, 35, 40, 50, 60, 70, 1000]
+constant at 9h10
+constant at 9h14
+constant at 9h18
+constant at 10h03
+faible at 9h28
+MILD ACCIDENT level 2/12 at 2018-11-07 09:28:09 value =  3.05
+MILD ACCIDENT level 1/12 at 2018-11-07 09:28:17 value =  2.18
+SUDDEN BRAKING value =  1.15
+MILD ACCIDENT level 2/12 at 2018-11-07 09:28:27 value =  3.31
+SUDDEN BRAKING value =  1.16
+faible at 9h38
+MILD ACCIDENT level 2/12 at 2018-11-07 09:37:52 value =  3.05
+MILD ACCIDENT level 1/12 at 2018-11-07 09:38:00 value =  2.12
+faible at 9h39
+MILD ACCIDENT level 1/12 at 2018-11-07 09:38:54 value =  2.26
+MILD ACCIDENT level 1/12 at 2018-11-07 09:39:03 value =  2.77
+moyenne at 9h42
+MILD ACCIDENT level 3/12 at 2018-11-07 09:41:24 value =  4.01
+MILD ACCIDENT level 1/12 at 2018-11-07 09:41:39 value =  2.92
+moyenne at 9h44
+MILD ACCIDENT level 2/12 at 2018-11-07 09:43:38 value =  3.49
+MILD ACCIDENT level 1/12 at 2018-11-07 09:43:48 value =  2.87
+moyenne at 9h45
+MILD ACCIDENT level 2/12 at 2018-11-07 09:45:02 value =  3.25
+MILD ACCIDENT level 2/12 at 2018-11-07 09:45:14 value =  3.72
+severe at 9h51
+MILD ACCIDENT level 2/12 at 2018-11-07 09:50:59 value =  3.05
+SUDDEN BRAKING value =  1.14
+MILD ACCIDENT level 3/12 at 2018-11-07 09:51:12 value =  4.02
+SUDDEN BRAKING value =  1.00
+MILD ACCIDENT level 2/12 at 2018-11-07 09:51:29 value =  3.16
+severe at 9h53
+MILD ACCIDENT level 2/12 at 2018-11-07 09:52:44 value =  3.05
+MILD ACCIDENT level 2/12 at 2018-11-07 09:52:58 value =  3.88
+MILD ACCIDENT level 2/12 at 2018-11-07 09:53:11 value =  3.05
+MILD ACCIDENT level 2/12 at 2018-11-07 09:53:33 value =  3.15
+severe at 9h54
+MILD ACCIDENT level 2/12 at 2018-11-07 09:54:06 value =  3.05
+SUDDEN BRAKING value =  1.28
+MILD ACCIDENT level 2/12 at 2018-11-07 09:54:16 value =  3.52
+avance at 9h57
+SUDDEN BRAKING value =  1.02
+avance at 10h00
+SUDDEN BRAKING value =  1.61
+SUDDEN BRAKING value =  1.35
+avance_stop_recoule_a_fond at 10h05
+SUDDEN BRAKING value =  1.48
+SUDDEN BRAKING value =  1.18
+SUDDEN BRAKING value =  1.06
+avance_stop_recoule_a_fond at 10h06
+SUDDEN BRAKING value =  1.27
+--------------------------------------------------------------------------------
+METHOD: DELETE OFFSET AND USE KALMAN FILTER with m = 1 
+rawdata --> reduce offset --> kalman filter 
+List level: [1.0, 2.0, 3.0, 4.0, 5.0, 20, 25, 30, 35, 40, 50, 60, 70, 1000]
+
+constant at 9h10
+constant at 9h14
+constant at 9h18
+constant at 10h03
+faible at 9h28
+faible at 9h38
+faible at 9h39
+moyenne at 9h42
+moyenne at 9h44
+moyenne at 9h45
+severe at 9h51
+severe at 9h53
+severe at 9h54
+avance at 9h57
+avance at 10h00
+avance_stop_recoule_a_fond at 10h05
+avance_stop_recoule_a_fond at 10h06
+--------------------------------------------------------------------------------
+#methode to fin low level 1: to detec all accidents
+
+METHOD: DELETE OFFSET AND USE AGRERATE WITH M =5
+
+total accident is 28. level to find is 0.88
+
+--------------------------------------------------------------------------------
+METHOD: DELETE OFFSET AND USE AGRERATE WITH M =5
+
+detect level 2: get all medium accidents
+
+total accident is 17. level to find is 0.91
+--------------------------------------------------------------------------------
+METHOD: DELETE OFFSET AND USE AGRERATE WITH M =5
+
+detect level 3: get all severes accidents
+
+total accident is 7. level to find is 1.50
+--------------------------------------------------------------------------------
